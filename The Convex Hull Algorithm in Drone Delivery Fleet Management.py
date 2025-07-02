@@ -116,8 +116,8 @@ def plot_hull(points: List[Point], hull: List[Point], save_path: str = 'delivery
     )
     
     # Formatting
-    plt.xlabel('Longitude (degrees)')
-    plt.ylabel('Latitude (degrees)')
+    plt.xlabel('Longitude')
+    plt.ylabel('Latitude')
     plt.title('NYC Delivery Hub Service Area Boundary')
     plt.legend()
     plt.grid(True, linestyle='--', alpha=0.7)
